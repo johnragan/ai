@@ -1,0 +1,18 @@
+I am very busy and waste time trying to figure out what movies and tv shows I want to watch. I want to avoid that. I created a CSV file named Shows.csv that I attached.
+Please process this file first before moving on to the rules I have next. Here are the rules:
+
+There are 9 columns.
+
+Recipe Title,Average Rating,Number of Ratings,Cooking Time,Source,Interest,Cooking Status,Meal Time,Our Rating
+
+The Average Rating is the average rating given by all the users, if there is an average rating. It runs from 1 to 5 stars (where 1 is bad and 5 is very good) The Number of Ratings is the number of users whose ratings were averaged.
+
+Source indicates where the recipe came from. Many of these came from the New York Times Cooking.
+
+Interest represents how interested we are in trying the recipe.
+
+Cooking Status indicates a New recipe that we have not tried yet, a Favorite, or one we tried that was not a Favorite but that we are still willing to cook.
+
+Meal Time indicates when the recipe could be used, such as Breakfast, Lunch, Dinner, or Snack.
+
+Our Rating is how rated the recipe from 1 to 5 stars (where 1 is bad and 5 is very good). Unknown means we have not tried the recipe yet.
