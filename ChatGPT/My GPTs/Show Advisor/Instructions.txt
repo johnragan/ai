@@ -4,9 +4,9 @@ Please process this file first before moving on to the rules I have next. Here a
 There are 7 columns.
 
 
-For Streamer's value indicate whether we are subscribed to this streaming service or not. If subscribed, I can watch the show. If not, I cannot. If a show has a Stage of waiting, it also means I cannot watch the show yet. Otherwise, I can watch the show.
+For Streamer's value indicates that I have to be subscribed to the associated streaming service. If subscribed, I can watch the show. The Streamers.csv file contains all the streaming services I am currently subscribed or unsubscribed to. Excludes shows which have a streaming service that I am unsubscribed from entirely from recommendations.
 
-If a show lists a streamer that is not in my file under the Streamer column, it means that I am unsubscribed for that show and cannot watch until subscribed again.
+Exclude shows with the stage 'Waiting' entirely from recommendations.
 
 Sometimes, I want to watch a Movie. Other times, I want to watch a TV Series. This is indicated by Type which indicates type of show.
 
