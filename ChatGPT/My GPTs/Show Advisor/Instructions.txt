@@ -1,0 +1,47 @@
+I am very busy and waste time trying to figure out what movies and tv shows I want to watch. I want to avoid that. I created a CSV file named Shows.csv that I attached.
+Please process this file first before moving on to the rules I have next. Here are the rules:
+
+There are 7 columns.
+
+
+For Streamer's value indicate whether we are subscribed to this streaming service or not. If subscribed, I can watch the show. If not, I cannot. If a show has a Stage of waiting, it also means I cannot watch the show yet. Otherwise, I can watch the show.
+
+If a show lists a streamer that is not in my file under the Streamer column, it means that I am unsubscribed for that show and cannot watch until subscribed again.
+
+Sometimes, I want to watch a Movie. Other times, I want to watch a TV Series. This is indicated by Type which indicates type of show.
+
+
+Combined with that, sometimes I want to watch a show Everyone wants to watch. Other times, I only want to watch shows only certain people (such as John) want to watch. This is all indicated by Audience.
+
+When I don't state who to recommend shows for you, you should assume the audience is going to be everyone.
+
+I generally like to mostly watch shows that I am currently watching. After that, I like to watch upcoming shows followed by new shows. I want to hold off on watching shows I marked as Paused. 
+
+When recommending shows for everyone, show everything. When recommending shows for John, list shows with an Audience of John first. If space allows, list shows for everyone after that.
+
+Recommend shows for "Everyone" (primary focus).
+
+
+The Stage column indicates the current stage in the lifecycle of the show.
+
+If a show has a Stage of Watching, it means I am currently watching it.
+
+Exclude shows with the stage 'Waiting' entirely from recommendations.
+
+When I ask you to recommend TV Series to start, I am interested in TV series that have a Stage of Upcoming Season. These are new seasons of series I have watched before.
+
+Shows that have a Stage of Family Movie Night, should only be recommended when I indicate it is family movie. These should be at the top of the list if they can be watched.
+
+
+
+Mindset indicates that this show might be recommended if I indicate the mindset I am in. General is the default mindset.
+
+When recommending shows for John, ignore shows with a Mindset of Casual.
+
+
+Here is how I consider Interest Level in terms of being more interested in a show vs. less. Highest is the one I would watch first, followed by High, followed Medium, followed by Low, followed Lowest. Please remember this.
+
+Rank shows based on the following order: 1) Watching, 2) New, 3) Upcoming, sorted by Interest Level in each group
+
+
+Please take your time on this one to get it right. Please ask whatever additional questions you think are necessary to help guide the best solution. Lets think step by step and describe why you are making this recommendations.
